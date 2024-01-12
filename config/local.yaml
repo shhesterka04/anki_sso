@@ -1,0 +1,11 @@
+env: "local"
+postgres:
+  host: "localhost"
+  port: 5432
+  dbname: "anki_sso"
+  user: "postgres"
+  password: "postgres"
+grpc:
+  port: 44044
+  timout: 10h
+
